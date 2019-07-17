@@ -99,7 +99,8 @@ Type:           type
 ## Contributors
 
 - Dileep Kishore
-
+- Briana Hackos
+-Nebiyou Kebede
 
 ## Credits
 
