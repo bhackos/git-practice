@@ -74,4 +74,4 @@ def movie_recommender(
 	raise ValueError()
     print("Returning recommendations")
     return recommender(movie, nhits=nhits)
-    
+    save(recommender)    
