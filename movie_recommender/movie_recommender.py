@@ -70,5 +70,8 @@ def movie_recommender(
         recommender = KeywordSimilarity(metadata, credits, keywords)
     elif method == "UserSimilarity":
         recommender = UserSimilarity(metadata, ratings, links)
+    else : 
+	raise ValueError()
     print("Returning recommendations")
     return recommender(movie, nhits=nhits)
+    
